@@ -18,4 +18,5 @@
 .history
 .ionide
 
+out/*
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
