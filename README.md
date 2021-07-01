@@ -30,15 +30,17 @@ You can navigate by the files in the repo.
 
 PUML diagram available by this [link](system.wsd).
 
-![img](images/png/system.png)
+![img](images/system.png)
 
 ### Containers. The Second Level
 
 PUML diagram available by this [link](containers.wsd).
 
-![img](images/png/containers.png)
+![img](images/containers.png)
 
 ### Components. The Third Level
+
+The components are stored in the `components/` directory.
 
 #### Authentication
 

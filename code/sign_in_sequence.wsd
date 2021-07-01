@@ -1,0 +1,50 @@
+@startuml sign_in_sequence
+
+title "Sign In Sequence Diagram"
+
+actor User
+
+participant AppDeviceTokenObtainPairView
+participant "@action authenticate" as authenticate
+
+entity AppDevice
+entity User as UserModel
+
+User -> authenticate: {"email": email, "password": password}
+activate authenticate
+
+authenticate -> UserModel: Look for User with email in DB
+activate UserModel
+
+UserModel -> authenticate: User Found
+
+authenticate -> authenticate: Authenticate User with the given creds
+
+authenticate -> User: 200 Success
+
+deactivate UserModel
+deactivate authenticate
+
+User -> AppDeviceTokenObtainPairView: {"email": email, "password": pass, "code": "OTP"}
+activate AppDeviceTokenObtainPairView
+
+AppDeviceTokenObtainPairView -> UserModel: Look for User with email in DB
+activate UserModel
+
+UserModel -> AppDeviceTokenObtainPairView: User Found
+AppDeviceTokenObtainPairView -> AppDeviceTokenObtainPairView: Authenticate User with email / pass
+
+AppDeviceTokenObtainPairView -> AppDevice: Get User's AppDevice
+activate AppDevice
+
+AppDevice -> AppDeviceTokenObtainPairView: AppDevice Found
+
+AppDeviceTokenObtainPairView -> AppDeviceTokenObtainPairView: Verify OTP code
+
+AppDeviceTokenObtainPairView -> User: 200 {"access_token": "...", "refresh_token": "..."}
+
+deactivate AppDevice
+
+deactivate AppDeviceTokenObtainPairView
+
+@enduml
