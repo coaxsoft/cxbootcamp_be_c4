@@ -30,18 +30,40 @@ You can navigate by the files in the repo.
 
 PUML diagram available by this [link](system.wsd).
 
-![img](images/png/system.png)
+![img](images/system.png)
 
 ### Containers. The Second Level
 
 PUML diagram available by this [link](containers.wsd).
 
-![img](images/png/containers.png)
+![img](images/containers.png)
 
 ### Components. The Third Level
+
+The components are stored in the `components/` directory.
 
 #### Authentication
 
 PUML diagram available by this [link](components/authentication.wsd).
 
 ![img](images/components/authentication/png/authentication_components.png)
+
+### Code. The Fourth Level
+
+The code diagrams are stored in the `code/` directory.
+
+#### Sign In Objects
+
+This is the diagram of packages, classes that should be used in the application.
+
+PUML diagram available by this [link](code/authentication/sign_in/sign_in_objects.wsd)
+
+![img](images/code/sign_in_objects/sign_in_objects.png)
+
+#### Sign In Sequence
+
+This is the diagram of user flow to use the objects.
+
+PUML diagram is available by this [link](code/authentication/sign_in/sign_in_sequence.wsd)
+
+![img](images/code/sign_in_sequence/sign_in_sequence.png)

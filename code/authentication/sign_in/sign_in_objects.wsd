@@ -1,0 +1,57 @@
+@startuml sign_in_objects
+
+title "Sign In Objects"
+
+top to bottom direction
+
+package authentication {
+    package models {
+        class User {
+            Custom User model
+        }
+        User -up-|> django.contrib.auth.models.AbstractUser
+    }
+    package serializers {
+        class AppDevicePairSerializer{
+            Custom serializer that validates the User using
+            the provided OTP code
+            ..
+            +username_field: str
+            +__init__(self, *args, **kwargs)
+            +validate(self, attrs)
+            +get_token(cls, user)
+        }
+
+        AppDevicePairSerializer -up-|> rest_framework_simplejwt.serializers.TokenObtainSerializer
+    }
+    package views {
+        class AppDeviceTokenObtainPairView{
+            Get JWT tokens for User with AppDevice
+            and OTP code.
+            ..
+
+            +serializer_class = AppDevicePairSerializer
+            +@action authenticate(self, *args, **kwargs)
+        }
+        note right of AppDeviceTokenObtainPairView: authenticate is an action \nto authenticate user with email / password pair \nbefore authentication with OTP
+
+        AppDeviceTokenObtainPairView --|> rest_framework_simplejwt.views.TokenObtainPairView
+        AppDevicePairSerializer --* AppDeviceTokenObtainPairView
+    }
+}
+
+package user_devices {
+    package models as device_models {
+        class AppDevice {
+            Django model to keep the required information
+            about user's authenticator app
+            ..
+            +user: OneToOne[User]
+            +secret_key: str
+        }
+        AppDevice --o AppDevicePairSerializer
+    }
+    
+}
+
+@enduml
