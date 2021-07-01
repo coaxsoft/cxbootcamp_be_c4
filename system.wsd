@@ -1,0 +1,24 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+
+!include FONTAWESOME/cc_stripe.puml
+!include MATERIAL/email.puml
+
+title "SmartCode System"
+
+Person(user, "User", "The user of SmartCode")
+System(smart_code, "SmartCode", "The system of SmartCode")
+
+Container_Ext(stripe, "Stripe", "Stripe payment system", $sprite="cc_stripe")
+Container_Ext(mailjet, "MailJet", "Send emails to user", $sprite="email")
+
+Rel_D(user, smart_code, "Uses the system")
+Rel_D(smart_code, stripe, "Payment requests")
+Rel_D(smart_code, mailjet, "Send emails")
+
+@enduml
