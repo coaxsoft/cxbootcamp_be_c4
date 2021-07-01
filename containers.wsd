@@ -1,0 +1,57 @@
+@startuml containers
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+
+!include DEVICONS/react.puml
+!include DEVICONS/redis.puml
+!include DEVICONS/postgresql.puml
+!include FONTAWESOME/cc_stripe.puml
+!include MATERIAL/email.puml
+!include MATERIAL/book.puml
+
+title "SmartCode Containers"
+
+Person(user, "User", "The user of SmartCode")
+Person(admin, "Admin", "The admin user of SmartCode")
+Person(developer, "Developer", "The developer of the system")
+
+System_Boundary(boundary, "SmartCode System"){
+    Container(web, "Web Client App", "ReactJS", "The FE application of SmartCode", $sprite="react")
+
+    Container_Boundary(api_boundary, "API"){
+        Container(api, "API", "Django / NodeJS", "The REST API")
+        Container(docs, "API docs", "OpenAPI", "Swagger / Redoc documentation to API", $sprite="book")
+        Container(admin_site, "Admin Site", "Django Admin / NodeJS Admin", "Admin Site of the application")
+    }
+
+    Container(background, "Background Processor", "Celery / NodeJS", "Background processor")
+
+    ContainerDb(db, "Rel. Database", "PostgreSQL", "Relational database storage", $sprite="postgresql")
+    ContainerDb(redis, "Redis", "Redis", "Key-value DB for background processing", $sprite="redis")
+    ContainerDb(es, "ElasticSearch", "ElasticSearch", "Document-based database with search engine")
+
+    Rel(api, db, "Read / write data")
+    Rel(api, es, "Read / write documents")
+    Rel(api, background, "Delay async tasks")
+
+    Rel(background, redis, "Listens to the queue")
+
+    Rel(web, api, "Requests the API")
+}
+
+Container_Ext(stripe, "Stripe", "Stripe payment system", $sprite="cc_stripe")
+Container_Ext(mailjet, "MailJet", "Send emails to user", $sprite="email")
+
+Rel_D(user, web, "Uses the app")
+Rel_D(admin, admin_site, "Uses the admin site")
+
+Rel(developer, api_boundary, "Full access to API while development")
+
+Rel_L(api, stripe, "Subscribe to plans")
+Rel_L(background, mailjet, "Send emails")
+
+@enduml
