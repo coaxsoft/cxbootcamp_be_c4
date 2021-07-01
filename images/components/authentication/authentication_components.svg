@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="746px" preserveAspectRatio="none" style="width:1094px;height:746px;background:#FFFFFF;" version="1.1" viewBox="0 0 1094 746" width="1094px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="243" x="419" y="17.4023">Authentication Components</text><!--MD5=[0c4a738b3201a23a254af68352446157]
+cluster auth--><rect fill="#FFFFFF" height="293" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="988" x="100" y="263.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="34" x="577" y="271">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="533.5" y="290.668">Authentication</text><!--MD5=[84d67f2fe53fc00cff6c66084858dafe]
+cluster sign_in--><rect fill="#FFFFFF" height="198" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="469" x="587" y="326.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="34" x="804.5" y="334">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="164" x="739.5" y="353.668">Multi-Factor Sign In</text><!--MD5=[46bd4387c78c3c78063fdea87e3f41dd]
+entity sign_up--><rect fill="#85BBF0" height="116.5742" style="stroke:#78A8D8;stroke-width:1.5;" width="200" x="143" y="382.1992"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="205" y="403.8008">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="164" x="161" y="421.8008">Sign Up Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="201.5" y="436.7773">[DRF: ViewSet]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="245" y="452.8438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="157" y="469.332">Register new users in the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="219.5" y="485.8203">system</text><!--MD5=[958ca036dc9d051b1fe38689e99ecef0]
+entity restore_access--><rect fill="#85BBF0" height="135.418" style="stroke:#78A8D8;stroke-width:1.5;" width="190" x="378" y="373.1992"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="435" y="394.8008">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="123" x="409" y="412.8008">Restore Access</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="425.5" y="431.6445">Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="431" y="446.6211">[DRF: APIView]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="475" y="462.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="392" y="479.1758">Restore access to user's</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="446" y="495.6641">account</text><!--MD5=[0e7eaf0aae4e603c1e2af9de56a32e35]
+entity email_pass_component--><rect fill="#85BBF0" height="135.418" style="stroke:#78A8D8;stroke-width:1.5;" width="160" x="603" y="373.1992"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="645" y="394.8008">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="107" x="627" y="412.8008">Email Sign In</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="635.5" y="431.6445">Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="641" y="446.6211">[DRF: APIView]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="685" y="462.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="617" y="479.1758">Sign in with email /</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="634.5" y="495.6641">password pair</text><!--MD5=[3562e6cf2b850bad43338f0c29e66a0d]
+entity otp_component--><rect fill="#85BBF0" height="116.5742" style="stroke:#78A8D8;stroke-width:1.5;" width="216" x="824" y="382.1992"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="894" y="403.8008">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="196" x="834" y="421.8008">OTP Sign In Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="890.5" y="436.7773">[DRF: @action]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="934" y="452.8438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="839" y="469.332">Sign in with OTP code from</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="870" y="485.8203">Authenticator app</text><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><rect fill="#438DD5" height="164.5742" style="stroke:#3C7FC0;stroke-width:1.5;" width="202" x="7" y="28.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="75.5" y="49.8008">«container»</text><image height="48" width="48" x="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACDklEQVR4Xu2UQUpDMRCG3916AC/gAbxAD+ABdOVK3Llw4bI7V+JOcONCpIJQkEJBUFRQBKF+fX/5CUn7RlqqLhJ+HslkMvNlXpKmt3fzr9SUpr9VBYpUgSJVoEgVKFIFilSBIlWgSDnQ9tHd+PkT7Z+NGap/eDEpV25IC4CmbROE+oPrp3LlhhQADSfv6B9V6Pc1Bzq5fOSsCCUF0hlilv7u4OFq9Pb68cUsX/1HNkCHKnoh/Z3jeyegfz58cXAW4tA/HW0d3LJQ0Wj4YJkDpeHcyjOUEdNAJHRmVFN0dpJPtEzMltGwzIC4TRrDyHadoATCwqz2bZ/UnzQmwO4p6kqdcNCQvpPin67Cp4FDA2XqvmWUJP1BKRBTOKTDLLIhIMimnAh7A3461wFU/tkSiN17KH9+UAmUJXUi7A3JNNBJTIFYqT4ldWL9NSXrBnIZiJkBOammnBR74xDTFtDsy4CISzIdyQ4gualPkdKLRliv0hX2FMtnt8zsaSOZwXX0fEXduoEYuhJpW3YBdUjm7xBORCQKVr799p1IqyIfOcgHf4hlRCp+NhSiLIaTXVNgYdfmZcxf6lQ+xfZeRzoMPuPLtBgIAtPw+0uHn0gPBF/K4Gh69Du0GKjXPjmcNb9AK6g8QBSpdMu0FGh9UWbqQYERcH7lu7VBoNVUgSJVoEgVKFIFilSBIlWgSBUo0jcyf2jjtXz4RgAAAABJRU5ErkJggg==" y="52.332"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="27" x="94.5" y="115.8008">API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="86" x="65" y="130.7773">[Django / DRF]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="110" y="146.8438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="21" y="163.332">The API to be used by the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="89.5" y="179.8203">client</text><!--MD5=[cf3df42afd6cc1924aa2a903771ccf48]
+entity send_email--><rect fill="#85BBF0" height="100.0859" style="stroke:#78A8D8;stroke-width:1.5;" width="210" x="252" y="640.1992"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="319" y="661.8008">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="190" x="262" y="679.8008">Send Email Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="132" x="291" y="694.7773">[Celery: @shared_task]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="359" y="710.8438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="288.5" y="727.332">Send emails to users</text><!--MD5=[314a44c54c3e2922fc34be1333232ec7]
+link email_pass_component to otp_component--><path d="M763.16,440.6992 C779.92,440.6992 797.92,440.6992 815.7,440.6992 " fill="none" id="email_pass_component-to-otp_component" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="823.85,440.6992,815.85,437.6992,815.85,443.6992,823.85,440.6992" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="781.5" y="434.3008">****</text><!--MD5=[dcd173ae8e6a2c91b6e1fa4388899dd5]
+link api to auth--><path d="M108,193.1992 C108,205.1517 108,217.895 108,231.0535 C108,237.6327 108,244.3158 108,251.0556 C108,254.4256 108,257.8097 108,261.2022 C108,261.6263 108,262.0505 108,262.4748 " fill="none" id="api-to-auth" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="108,262.4748,111,254.4748,105,254.4748,108,262.4748" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="109" y="235.8008">API calls to</text><!--MD5=[b7f5555d10d0f248d6acebe9bba676e4]
+link sign_up to send_email--><path d="M248.18,499.4192 C253.08,533.2892 262.59,576.0092 281,610.1992 C285.44,618.4492 290.98,626.4392 297.04,633.9792 " fill="none" id="sign_up-to-send_email" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="302.24,640.1992,299.3955,632.1426,294.7994,635.9995,302.24,640.1992" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="133" x="282" y="599.8008">Send 'Welcome' Email</text><!--MD5=[3e622b6770a8f7d24071a92378b95944]
+link restore_access to send_email--><path d="M458.11,508.3592 C449.48,540.2792 436.93,578.3892 420,610.1992 C415.84,618.0292 410.86,625.8392 405.56,633.3392 " fill="none" id="restore_access-to-send_email" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="400.61,640.1392,407.7502,635.447,402.9043,631.909,400.61,640.1392" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="433" y="592.8008">Send email with</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="447" y="606.9336">instructions</text><!--MD5=[3eea0b7657454e45078c461aa67737cb]
+@startuml authentication_components
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+
+!include DEVICONS/django.puml
+
+title "Authentication Components"
+
+Container(api, "API", "Django / DRF", "The API to be used by the client", $sprite="django")
+
+Boundary(auth, "Authentication"){
+    Component(sign_up, "Sign Up Component", "DRF: ViewSet", "Register new users in the system")
+    Component(restore_access, "Restore Access Component", "DRF: APIView", "Restore access to user's account")
+    
+    Boundary(sign_in, "Multi-Factor Sign In"){
+        Component(email_pass_component, "Email Sign In Component", "DRF: APIView", "Sign in with email / password pair")
+        Component(otp_component, "OTP Sign In Component", "DRF: @action", "Sign in with OTP code from Authenticator app")
+
+        Rel_R(email_pass_component, otp_component, "")
+    }
+}
+
+Component(send_email, "Send Email Component", "Celery: @shared_task", "Send emails to users")
+
+Rel_D(api, auth, "API calls to")
+Rel(sign_up, send_email, "Send 'Welcome' Email")
+Rel(restore_access, send_email, "Send email with instructions")
+
+@enduml
+
+@startuml authentication_components
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor #FFFFFF
+    FontStyle plain
+    BackgroundColor #FFFFFF
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor #FFFFFF
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor #FFFFFF
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sprite $django [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000002DD60DD700000000000000000000000000000000000
+000002FF70FF900000000000000000000000000000000000
+000002FF70CC700000000000000000000000000000000000
+000002FF7000000000000000000000000000000000000000
+008DFFFF70DD805BEFE9029CFFFC30003ADFFEC419EFFA10
+0CFFFFFF70FF90DFFFFF54FFFFFFF108FFFFFFE1DFFFFFD0
+6FFA24FF70FF907400FF74FF718FF44FFB37FF36FF818FF7
+AFF002FF70FF90059CFF74FF504FF5AFF006FF1AFF000FFA
+BFF002FF70FF90CFFFFF74FF503FF5CFE006FF1BFF000FFB
+9FF302FF71FF84FF40CF74FF503FF5AFF206FF19FF202FF9
+3FFFBBFF71FF84FF65DF74FF503FF65FFEADFF14FFD8DFF3
+06FFFFFF72FF81EFFFFF74FF503FF609FFFFFF108FFFFF70
+0015676414FF601677652166201662003669FF0003897200
+000000000CFF20000000000000000000000BFE0000000000
+00000002CFFA0000000000000000009C98CFF80000000000
+000000005D900000000000000000009FFFFFB00000000000
+00000000000000000000000000000028AA94000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV DJANGO>> White
+
+title "Authentication Components"
+
+rectangle "<$django>\n==API\n//<size:12>[Django / DRF]</size>//\n\n The API to be used by the client" <<container>> as api 
+
+rectangle "==Authentication" <<boundary>> as auth {
+    rectangle "==Sign Up Component\n//<size:12>[DRF: ViewSet]</size>//\n\n Register new users in the system" <<component>> as sign_up 
+    rectangle "==Restore Access Component\n//<size:12>[DRF: APIView]</size>//\n\n Restore access to user's account" <<component>> as restore_access 
+    
+    rectangle "==Multi-Factor Sign In" <<boundary>> as sign_in {
+        rectangle "==Email Sign In Component\n//<size:12>[DRF: APIView]</size>//\n\n Sign in with email / password pair" <<component>> as email_pass_component 
+        rectangle "==OTP Sign In Component\n//<size:12>[DRF: @action]</size>//\n\n Sign in with OTP code from Authenticator app" <<component>> as otp_component 
+
+        email_pass_component -RIGHT->> otp_component : ****
+    }
+}
+
+rectangle "==Send Email Component\n//<size:12>[Celery: @shared_task]</size>//\n\n Send emails to users" <<component>> as send_email 
+
+api -DOWN->> auth : **API calls to**
+sign_up - ->> send_email : **Send 'Welcome' Email**
+restore_access - ->> send_email : **Send email with instructions**
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
