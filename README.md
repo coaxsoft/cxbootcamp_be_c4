@@ -67,3 +67,10 @@ This is the diagram of user flow to use the objects.
 PUML diagram is available by this [link](code/authentication/sign_in/sign_in_sequence.wsd)
 
 ![img](images/code/sign_in_sequence/sign_in_sequence.png)
+
+### Entity Relations or Database Diagram
+
+Another applience of PlantUML is the creation of Entity Relation Diagram. For example draft ER diagram for SmartCode Database.
+PUML diagram available by this [link](database/smart_code_db.wsd)
+
+![img](images/database/smart_code_db/default_db.png)
