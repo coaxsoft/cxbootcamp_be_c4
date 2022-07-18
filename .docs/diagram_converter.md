@@ -22,7 +22,7 @@ mlflow("
     ML models storage
 ")
 
-subgraph ml-converter;
+subgraph diagram-converter;
     serve["
         Ray.serve
 
